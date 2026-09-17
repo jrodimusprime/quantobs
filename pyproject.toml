@@ -1,0 +1,13 @@
+[project]
+name = "quantobs"
+version = "1.0.0"
+description = "Canonical observations on trading performance. No targets, no verdicts."
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.20"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["quantobs*"]
